@@ -13,16 +13,16 @@
         extend: {
           colors: {
             brand: {
-              primary: "#0F766E",
-              hover: "#138A81",
-              press: "#0A5751",
-              secondary: "#84A98C",
-              accent: "#E9C46A",
-              bg: "#FAF9F6",
-              text: "#FFFFFF",
-              black: "#050315",
-              softblack: "#2D3748",
-              mapblue: "#007AFF",
+              primary: "var(--color-brand-primary)",
+              hover: "var(--color-brand-hover)",
+              press: "var(--color-teal-dark)",
+              secondary: "var(--color-brand-secondary)",
+              accent: "var(--color-brand-accent)",
+              bg: "var(--color-brand-bg)",
+              text: "var(--color-brand-text)",
+              black: "var(--color-brand-black)",
+              softblack: "var(--color-brand-softblack)",
+              mapblue: "var(--color-brand-mapblue)",
             },
           },
         },
@@ -36,6 +36,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
     rel="stylesheet" />
 
+  <!--FontAwesome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
@@ -45,8 +48,8 @@
     
 
 <section class="hero-section"  style="--hero-bg: url('/assets/images/hero.png');" >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="max-w-3xl">
+  <div class="hero-container">
+    <div class="hero-content">
       
       <span
         class="inline-block px-4 py-1.5 rounded-full bg-brand-accent text-brand-black font-bold text-xs uppercase tracking-wider mb-6 shadow-sm">
@@ -60,7 +63,7 @@
 
       
       <p class="text-lg sm:text-xl text-gray-200 mb-10 leading-relaxed font-medium">
-        Descubre propiedades en tiempo real con nuestra integración avanzada de mapas interactivos. Busca por colonias, filtra por tus necesidades y conecta con inmobiliarias al instante.
+        Descubre propiedades en tiempo real mientras recorres la ciudad. Integración avanzada de mapas interactivos,  sin filtros interminables, sin resultados irrelevantes.
 
       </p>
       
@@ -86,6 +89,73 @@
       
     </div>
   </div>
+</section>
+
+
+<section class="map-feature">
+  <div class="map-feature-text">
+    
+    <p class="section-label">El mapa es la clave</p>
+    
+
+    <h2 class="section-title">Busca menos. Explora más.</h2>
+    <p>En vez de empezar con una lista interminable, Andando empieza en el lugar donde estás. Haz Zoom en Providencia, Chapalita, o donde sea que quieras vivir para ver qué existe realmente a tu alrededor.</p>
+
+    
+    <a href="#registro" class="white-btn">Quiero probarlo</a>
+    
+  </div>
+
+  <div class="map-visual">
+  <div class="map-visual">
+  <div class="map-grid"></div>
+  <div class="road road-a"></div>
+  <div class="road road-b"></div>
+  <div class="road road-c"></div>
+</div>
+  <svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg"
+  style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;">
+  <!-- Location puck -->
+  <circle cx="200" cy="160" r="12" fill="#007AFF" opacity="0.3" />
+  <circle cx="200" cy="160" r="6" fill="#007AFF" />
+  <circle cx="200" cy="160" r="3" fill="white" />
+</svg>
+  
+
+
+<div class="pin" style="left:18%;top:20%; animation-delay: 0s;">
+  <div class="pin-bubble rent">$18,000</div>
+  <div class="pin-icon rent">
+    <i class="fa-solid fa-house"></i>
+  </div>
+  <div class="pin-point rent"></div>
+</div>
+
+<div class="pin" style="left:55%;top:25%; animation-delay: 0.7s;">
+  <div class="pin-bubble sale">$2.1 M</div>
+  <div class="pin-icon sale">
+    <i class="fa-solid fa-bed"></i>
+  </div>
+  <div class="pin-point sale"></div>
+</div>
+
+<div class="pin" style="left:72%;top:68%; animation-delay: 1.2s;">
+  <div class="pin-bubble rent">$22,500</div>
+  <div class="pin-icon rent">
+    <i class="fa-solid fa-briefcase"></i>
+  </div>
+  <div class="pin-point rent"></div>
+</div>
+
+<div class="pin" style="left:28%;top:72%; animation-delay: 0.3s;">
+  <div class="pin-bubble sale">$3.5 M</div>
+  <div class="pin-icon sale">
+    <i class="fa-solid fa-house"></i>
+  </div>
+  <div class="pin-point sale"></div>
+</div>
+
+</div>
 </section>
   </main>
 </body>

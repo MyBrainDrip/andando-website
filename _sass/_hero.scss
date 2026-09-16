@@ -20,4 +20,25 @@
     linear-gradient(rgba(15, 118, 110, 0.2), rgba(5, 3, 21, 0.8)),
     //linear-gradient(rgba(15, 118, 110, 0.4), rgba(5, 3, 21, 0.6)),
     var(--hero-bg);
+
+  .hero-container {
+    position: relative;
+    z-index: 10;
+    max-width: 80rem; // max-w-7xl equivalent
+    margin: 0 auto;
+
+    padding: 2rem 1rem; // Vertical & horizontal mobile padding
+
+    @media (min-width: 640px) {
+      padding: 3rem 1.25rem; // Tablet padding
+    }
+
+    @media (min-width: 1024px) {
+      padding: 4rem 1.5rem; // Desktop padding
+    }
+  }
+
+  .hero-content {
+    max-width: 48rem; // max-w-3xl equivalent
+  }
 }
