@@ -222,16 +222,20 @@ body {
 }
 @media (min-width: 1024px) {
   .map-feature {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     padding: 6rem 8rem;
+    gap: 5rem;
   }
 }
+.map-feature .map-feature-text {
+  max-width: 30rem;
+}
 .map-feature .map-feature-text .section-label {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--color-brand-primary);
+  color: var(--color-brand-accent);
   margin-bottom: 0.75rem;
 }
 .map-feature .map-feature-text .section-title {
@@ -241,13 +245,16 @@ body {
   color: var(--color-brand-black);
   margin-bottom: 1.25rem;
 }
+.map-feature .map-feature-text .section-title .highlight {
+  color: var(--color-brand-primary);
+}
 @media (min-width: 640px) {
   .map-feature .map-feature-text .section-title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 .map-feature .map-feature-text p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--color-brand-softblack);
   line-height: 1.6;
   margin-bottom: 2rem;

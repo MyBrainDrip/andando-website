@@ -10,17 +10,21 @@
   background: var(--color-light-green);
 
   @media (min-width: 1024px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     padding: 6rem 8rem;
+    gap: 5rem;
   }
 
   .map-feature-text {
+    max-width: 30rem;
+
     .section-label {
-      font-size: 0.875rem;
+      font-size: 1.2rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      color: $brand-primary;
+      //color: $brand-primary;
+      color: $brand-accent;
       margin-bottom: 0.75rem;
     }
 
@@ -31,13 +35,18 @@
       color: $brand-black;
       margin-bottom: 1.25rem;
 
+      .highlight {
+        color: $brand-primary; // Applies your brand accent color to "Explora más."
+      }
+
       @media (min-width: 640px) {
-        font-size: 3rem;
+        font-size: 4rem;
       }
     }
 
     p {
-      font-size: 1.125rem;
+      //font-size: 1.125rem;
+      font-size: 1rem;
       color: $brand-softblack;
       line-height: 1.6;
       margin-bottom: 2rem;
