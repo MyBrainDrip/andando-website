@@ -14,7 +14,7 @@ pins:
     type: "sale"
     position: "left:55%;top:25%"
     delay: "0.7s"
-    icon: "bed"
+    icon: "building"
   - price: "$22,500"
     type: "rent"
     position: "left:72%;top:68%"
