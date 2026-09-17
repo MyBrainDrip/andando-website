@@ -1,0 +1,13 @@
+image: "assets/images/hero.png"
+tagline: "Plataforma Inmobiliaria Inteligente"
+title: "Encuentra tu nueva casa caminando por el mapa."
+subtitle: >
+  Descubre propiedades en tiempo real mientras recorres la ciudad. Integración avanzada de mapas interactivos, 
+  sin filtros interminables, sin resultados irrelevantes.
+buttons:
+  - text: "Descargar APK (Preview)"
+    url: "#download"
+    style: "primary"
+  - text: "Conocer más"
+    url: "#features"
+    style: "secondary"

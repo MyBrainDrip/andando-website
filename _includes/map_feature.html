@@ -1,0 +1,18 @@
+{% assign map = site.data.map_feature %}
+
+<section class="map-feature">
+  <div class="map-feature-text">
+    {% if map.label %}
+    <p class="section-label">{{ map.label }}</p>
+    {% endif %}
+
+    <h2 class="section-title">{{ map.title }}</h2>
+    <p>{{ map.description }}</p>
+
+    {% if map.cta %}
+    <a href="{{ map.cta.url }}" class="white-btn">{{ map.cta.text }}</a>
+    {% endif %}
+  </div>
+
+  {% include animated_map/animated_map.html %}
+</section>

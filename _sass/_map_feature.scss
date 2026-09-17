@@ -1,0 +1,71 @@
+@use "colors" as *;
+
+.map-feature {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 4rem 1.4rem;
+  background: var(--color-light-green);
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 1.5fr;
+    padding: 6rem 8rem;
+    gap: 5rem;
+  }
+
+  .map-feature-text {
+    max-width: 30rem;
+
+    .section-label {
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      //color: $brand-primary;
+      color: $brand-accent;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: $brand-black;
+      margin-bottom: 1.25rem;
+
+      .highlight {
+        color: $brand-primary; // Applies your brand accent color to "Explora más."
+      }
+
+      @media (min-width: 640px) {
+        font-size: 4rem;
+      }
+    }
+
+    p {
+      //font-size: 1.125rem;
+      font-size: 1rem;
+      color: $brand-softblack;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .white-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.875rem 1.75rem;
+      background-color: $brand-black;
+      color: $brand-text;
+      font-weight: 700;
+      border-radius: 0.75rem;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: $brand-primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.hero-section {
+  position: relative;
+  background-color: #0f766e; // Fallback teal background
+  color: #ffffff;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center 75%;
+  min-height: 90vh;
+
+  @media (min-width: 1024px) {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  // Combine gradient overlay and dynamic background variable
+  background-image:
+    //linear-gradient(rgba(15, 118, 110, 0.75), rgba(5, 3, 21, 0.85)),
+    linear-gradient(rgba(15, 118, 110, 0.2), rgba(5, 3, 21, 0.8)),
+    //linear-gradient(rgba(15, 118, 110, 0.4), rgba(5, 3, 21, 0.6)),
+    var(--hero-bg);
+
+  .hero-container {
+    position: relative;
+    z-index: 10;
+    max-width: 80rem; // max-w-7xl equivalent
+    margin: 0 auto;
+
+    padding: 2rem 1rem; // Vertical & horizontal mobile padding
+
+    @media (min-width: 640px) {
+      padding: 3rem 1.25rem; // Tablet padding
+    }
+
+    @media (min-width: 1024px) {
+      padding: 4rem 1.5rem; // Desktop padding
+    }
+  }
+
+  .hero-content {
+    max-width: 48rem; // max-w-3xl equivalent
+  }
+}
