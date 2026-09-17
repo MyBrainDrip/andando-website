@@ -1,0 +1,15 @@
+label: "Cómo funciona"
+title: "Buscar casa en GDL nunca fue tan directo."
+steps:
+  - title: "Explora en el mapa"
+    body: "Navega colonias como lo harías caminando. Ve propiedades en renta y venta exactamente donde están, no en una lista sin contexto."
+    icon:
+      type: "search"
+  - title: "Revisa el inmueble"
+    body: "Fotos, precio, recámaras, metros cuadrados. Todo lo que necesitas para saber si vale la pena contactar al agente."
+    icon:
+      type: "home"
+  - title: "Contacta con confianza"
+    body: "Andando te conecta directamente con el agente de la propiedad. Sin intermediarios extra, sin llamadas en frío."
+    icon:
+      type: "phone"
