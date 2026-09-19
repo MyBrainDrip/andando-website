@@ -9,8 +9,6 @@ baseurl: ""
 # ==============================================================================
 # Build & Architecture
 # ==============================================================================
-# Tells Jekyll NOT to load any default themes (prevents HTML/CSS bloat)
-theme: ""
 
 # SCSS processing configuration
 sass:
