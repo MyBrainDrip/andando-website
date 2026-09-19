@@ -43,7 +43,8 @@
     flex: 1;
     min-width: 280px;
     background: $brand-text;
-    border: 1px solid rgba($brand-primary, 0.15);
+    // border: 1px solid $brand-primary;
+    border: 1px solid color-mix(in srgb, $brand-primary 50%, transparent);
     border-radius: 1.875rem;
     padding: 40px;
 
@@ -75,7 +76,8 @@
 
       .stat-divider {
         height: 1px;
-        background: rgba($brand-primary, 0.12);
+        background: $brand-primary;
+        opacity: 0.4;
       }
     }
   }
