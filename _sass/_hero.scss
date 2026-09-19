@@ -1,13 +1,14 @@
+@use "colors" as *;
+
 .hero-section {
   position: relative;
-  background-color: #0f766e; // Fallback teal background
-  color: #ffffff;
+  background-color: $brand-primary; // Fallback teal background
+  color: $brand-text;
   padding-top: 6rem;
   padding-bottom: 6rem;
   overflow: hidden;
   background-size: cover;
   background-position: center 75%;
-  min-height: 90vh;
 
   @media (min-width: 1024px) {
     padding-top: 9rem;
@@ -16,29 +17,69 @@
 
   // Combine gradient overlay and dynamic background variable
   background-image:
-    //linear-gradient(rgba(15, 118, 110, 0.75), rgba(5, 3, 21, 0.85)),
     linear-gradient(rgba(15, 118, 110, 0.2), rgba(5, 3, 21, 0.8)),
-    //linear-gradient(rgba(15, 118, 110, 0.4), rgba(5, 3, 21, 0.6)),
     var(--hero-bg);
 
   .hero-container {
     position: relative;
     z-index: 10;
-    max-width: 80rem; // max-w-7xl equivalent
+    max-width: 80rem;
     margin: 0 auto;
-
-    padding: 2rem 1rem; // Vertical & horizontal mobile padding
+    padding: 2rem 1rem;
 
     @media (min-width: 640px) {
-      padding: 3rem 1.25rem; // Tablet padding
+      padding: 3rem 1.25rem;
     }
 
     @media (min-width: 1024px) {
-      padding: 4rem 1.5rem; // Desktop padding
+      padding: 4rem 1.5rem;
     }
   }
 
   .hero-content {
-    max-width: 48rem; // max-w-3xl equivalent
+    max-width: 48rem;
+
+    .hero-tagline {
+      display: inline-block;
+      padding: 0.375rem 1rem; // px-4 py-1.5
+      border-radius: 9999px; // rounded-full
+      background-color: $brand-accent;
+      color: $brand-black;
+      font-weight: 700; // font-bold
+      font-size: 0.75rem; // text-xs
+      text-transform: uppercase; // uppercase
+      letter-spacing: 0.05em; // tracking-wider
+      //margin-bottom: 1.5rem; // mb-6
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); // shadow-sm
+    }
+
+    .hero-title {
+      font-family: "Paytone One", sans-serif;
+      font-size: 2.25rem; // text-4xl
+      font-weight: 800; // font-extrabold
+      letter-spacing: -0.025em; // tracking-tight
+      line-height: 1.15; // leading-tight
+      margin-bottom: 1.5rem; // mb-6
+
+      @media (min-width: 640px) {
+        font-size: 3rem; // sm:text-5xl
+      }
+
+      @media (min-width: 1024px) {
+        font-size: 3.75rem; // lg:text-6xl
+      }
+    }
+
+    .hero-subtitle {
+      font-size: 1.125rem; // text-lg
+      color: #e5e7eb; // text-gray-200
+      margin-bottom: 3.5rem; // mb-10
+      line-height: 1.625; // leading-relaxed
+      font-weight: 500; // font-medium
+
+      @media (min-width: 640px) {
+        font-size: 1.25rem; // sm:text-xl
+      }
+    }
   }
 }

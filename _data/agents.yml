@@ -1,0 +1,13 @@
+label: "Para agentes inmobiliarios"
+title: "Prospectos calificados, no contactos en frío."
+description: "Andando te conecta con compradores y arrendatarios que ya vieron tu propiedad en el mapa, revisaron el precio y decidieron contactarte. Eso es un prospecto de calidad."
+cta:
+  text: "Quiero publicar mis propiedades"
+  url: "mailto:inmobiliarias@andando.ai"
+stats:
+  - number: "7k+"
+    label: "Propiedades indexadas en la Zona Metropolitana de Guadalajara"
+  - number: "5"
+    label: "Municipios cubiertos: GDL, Zapopan, Tlaquepaque, Tonalá, Tlajomulco"
+  - number: "0"
+    label: "Anuncios. Andando es un espacio limpio para buscar, sin distracciones."

@@ -1,17 +1,17 @@
-{% assign how = site.data.how %}
+{% assign features = site.data.features %}
 
-<section class="how">
-  {% if how.label %}
-  <p class="section-label">{{ how.label }}</p>
+<section id="features" class="features">
+  {% if features.label %}
+  <p class="section-label">{{ features.label }}</p>
   {% endif %}
 
-  {% if how.title %}
-  <h2 class="section-title">{{ how.title }}</h2>
+  {% if features.title %}
+  <h2 class="section-title">{{ features.title }}</h2>
   {% endif %}
 
-  {% if how.steps %}
+  {% if features.steps %}
   <div class="steps">
-    {% for step in how.steps %}
+    {% for step in features.steps %}
     <div class="step">
       <div class="step-icon">
         {% case step.icon.type %}

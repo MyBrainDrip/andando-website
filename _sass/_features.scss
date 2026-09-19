@@ -1,0 +1,179 @@
+@use "colors" as *;
+
+.features {
+  padding: 0px 48px 100px;
+  max-width: 70%;
+  margin: 0 auto;
+
+  .section-label {
+    display: block; // Ensures it takes the full width so centering works if it's a <span>
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: $brand-primary;
+    //margin-bottom: 12px;
+    margin-bottom: 60px;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: $brand-black; // Replaced #050315
+    margin-bottom: 60px;
+    max-width: 70%;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 8%;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .step-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: $brand-primary; // Replaced #0f766e
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0; // Prevents squishing if the step container flexes
+
+    svg {
+      width: 26px;
+      height: 26px;
+      display: block; // Eliminates inline baseline whitespace gap
+      margin: 0; // Removes any user-agent default margin
+    }
+  }
+
+  .step-title {
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: $brand-black;
+    letter-spacing: -0.3px;
+    font-family: "Nunito", sans-serif;
+    align-self: center;
+  }
+
+  .step-body {
+    margin-top: 0px;
+    font-size: 15px;
+    color: $brand-black;
+    line-height: 1.65;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 72px 24px;
+    max-width: 100%;
+
+    .section-title {
+      max-width: 100%;
+    }
+  }
+}
+
+/*@use "colors" as *;
+
+.features {
+  // Top: 20px, L/R: 48px, Bottom: 100px
+  padding: 20px 48px 100px;
+  max-width: 70%;
+  margin: 0 auto;
+
+  .section-label {
+    display: block;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: $brand-primary;
+    //margin-bottom: 12px;
+    margin-bottom: 25px;
+    margin-top: -5px;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: $brand-black;
+    margin-bottom: 60px;
+    max-width: 70%;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 8%;
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; // Reduced from 16px to natively pull the title and body together
+  }
+
+  .step-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: $brand-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+    margin-bottom: 8px; // Restores the 16px gap below the icon (8px flex gap + 8px margin)
+
+    svg {
+      width: 26px;
+      height: 26px;
+      display: block;
+      margin: 0;
+    }
+  }
+
+  .step-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: $brand-black;
+    letter-spacing: -0.3px;
+    font-family: "Nunito", sans-serif;
+    align-self: center;
+  }
+
+  .step-body {
+    font-size: 15px;
+    color: $brand-black;
+    line-height: 1.65;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 24px 24px 72px; // Adjusted mobile padding to match the new top-heavy logic
+    max-width: 100%;
+
+    .section-title {
+      max-width: 100%;
+    }
+  }
+}
+*/

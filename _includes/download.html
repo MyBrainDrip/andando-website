@@ -1,0 +1,31 @@
+{% assign download = site.data.download %}
+
+<section id="download" class="download-section">
+  <div class="download-container">
+    {% if download.title %}
+    <h2 class="section-title">{{ download.title }}</h2>
+    {% endif %}
+
+    {% if download.subtitle %}
+    <p class="section-subtitle">{{ download.subtitle }}</p>
+    {% endif %}
+
+    {% if download.buttons %}
+    <div class="cta-buttons download-actions">
+      {% for btn in download.buttons %}
+      {% if btn.style == 'disabled' %}
+      <div class="cta-btn-glass disabled-badge">
+        {% if btn.icon %}<i class="{{ btn.icon }}"></i>{% endif %}
+        <span>{{ btn.text }}</span>
+      </div>
+      {% else %}
+      <a href="{{ btn.url }}" class="cta-btn-primary">
+        {% if btn.icon %}<i class="{{ btn.icon }}"></i>{% endif %}
+        <span>{{ btn.text }}</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>

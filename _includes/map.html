@@ -1,4 +1,4 @@
-{% assign map = site.data.map_feature %}
+{% assign map = site.data.map %}
 
 <section class="map-feature">
   <div class="map-feature-text">
@@ -10,7 +10,7 @@
     <p>{{ map.description }}</p>
 
     {% if map.cta %}
-    <a href="{{ map.cta.url }}" class="white-btn">{{ map.cta.text }}</a>
+    <a href="{{ map.cta.url }}" class="dark-btn">{{ map.cta.text }}</a>
     {% endif %}
   </div>
 

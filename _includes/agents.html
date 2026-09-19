@@ -1,0 +1,37 @@
+{% assign agents = site.data.agents %}
+
+<section class="agents">
+  <div class="agents-text">
+    {% if agents.label %}
+    <p class="section-label">{{ agents.label }}</p>
+    {% endif %}
+
+    {% if agents.title %}
+    <h2 class="section-title">{{ agents.title }}</h2>
+    {% endif %}
+
+    {% if agents.description %}
+    <p>{{ agents.description }}</p>
+    {% endif %}
+
+    {% if agents.cta %}
+    <a href="{{ agents.cta.url }}" class="primary-btn">{{ agents.cta.text }}</a>
+    {% endif %}
+  </div>
+
+  {% if agents.stats %}
+  <div class="agent-card">
+    <div class="agent-stats">
+      {% for stat in agents.stats %}
+      <div class="stat-row">
+        <span class="stat-num">{{ stat.number }}</span>
+        <span class="stat-label">{{ stat.label }}</span>
+      </div>
+      {% unless forloop.last %}
+      <div class="stat-divider"></div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</section>

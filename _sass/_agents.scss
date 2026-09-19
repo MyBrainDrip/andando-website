@@ -1,0 +1,90 @@
+@use "colors" as *;
+
+.agents {
+  padding: 100px 48px;
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+
+  .agents-text {
+    flex: 1;
+    min-width: 280px;
+
+    .section-label {
+      font-style: italic;
+      font-size: 1.5rem;
+      color: $brand-primary;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 900;
+      letter-spacing: -1px;
+      line-height: 1.1;
+      color: $brand-black;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: $brand-black;
+      opacity: 0.8;
+      max-width: 420px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .agent-card {
+    flex: 1;
+    min-width: 280px;
+    background: $brand-text;
+    border: 1px solid rgba($brand-primary, 0.15);
+    border-radius: 1.875rem;
+    padding: 40px;
+
+    .agent-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+
+      .stat-row {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .stat-num {
+          font-size: 36px;
+          font-weight: 900;
+          color: $brand-primary;
+          letter-spacing: -1px;
+          min-width: 80px;
+        }
+
+        .stat-label {
+          font-size: 1.1rem;
+          line-height: 1.4;
+          color: $brand-black;
+          opacity: 0.7;
+        }
+      }
+
+      .stat-divider {
+        height: 1px;
+        background: rgba($brand-primary, 0.12);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .agents {
+    padding: 72px 24px;
+    max-width: 100%;
+    gap: 40px;
+  }
+}

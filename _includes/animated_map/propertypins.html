@@ -1,4 +1,4 @@
-{% assign pins = map.pins | default: site.data.map_feature.pins %}
+{% assign pins = map.pins | default: site.data.map.pins %}
 
 {% for pin in pins %}
 <div class="pin" style="{{ pin.position }}; animation-delay: {{ pin.delay }};">
