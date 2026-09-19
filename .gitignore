@@ -1,19 +1,33 @@
-# Jekyll generated site output
+# ==============================================================================
+# Jekyll Build & Cache
+# ==============================================================================
 _site/
+.sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
-# Package managers & dependencies
 node_modules/
-.sass-cache/
-.bundle/
-vendor/
 
-# System & OS files
+# ==============================================================================
+# Ruby / Bundler
+# ==============================================================================
+vendor/
+.bundle/
+# Note: Gemfile and Gemfile.lock are intentionally NOT ignored. 
+# GitHub Actions needs them to cache your build environment.
+
+# ==============================================================================
+# OS Artifacts
+# ==============================================================================
 .DS_Store
+.DS_Store?
 Thumbs.db
+._*
+.Spotlight-V100
+.Trashes
 *.log
 
-# Environment & local setup
+# ==============================================================================
+# Environments
+# ==============================================================================
 .env
 .env.local

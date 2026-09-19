@@ -1,0 +1,32 @@
+# ==============================================================================
+# Site Settings
+# ==============================================================================
+title: Andando
+description: Encuentra tu nueva casa
+url: "https://andando.ai"
+baseurl: ""
+
+# ==============================================================================
+# Build & Architecture
+# ==============================================================================
+# Tells Jekyll NOT to load any default themes (prevents HTML/CSS bloat)
+theme: ""
+
+# SCSS processing configuration
+sass:
+  sass_dir: _sass
+  style: compressed # Minifies your final CSS for production speed
+
+# ==============================================================================
+# Exclusions
+# ==============================================================================
+# Prevents Jekyll from processing internal or development files
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - .github/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
