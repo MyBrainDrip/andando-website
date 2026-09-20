@@ -1,0 +1,14 @@
+brand_name: "andando"
+logo_image: "/assets/images/feet.png"
+nav_links:
+  - title: "Características"
+    url: "#features"
+  - title: "Descargar App"
+    url: "#download"
+  - title: "Aviso de Privacidad"
+    url: "{{ '/privacy/' | relative_url }}"
+  - title: "Soporte"
+    url: "{{ '/support/' | relative_url }}"
+cta_button:
+  title: "Obtener la App"
+  url: "#download"

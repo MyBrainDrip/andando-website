@@ -1,5 +1,6 @@
 company: "Andando"
-logo_image: "/assets/images/feet.png" #
+logo_image: "/assets/images/feet.png"
+logo_label: "andando"
 year: 2026
 copyright_text: "Todos los derechos reservados."
 links:

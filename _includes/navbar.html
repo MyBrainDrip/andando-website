@@ -1,0 +1,25 @@
+<nav class="site-navbar">
+  <div class="navbar-container">
+    <!-- Brand / Logo -->
+    <a href="{{ '/' | relative_url }}" class="navbar-brand">
+      <div class="brand-logo-box">
+        <img src="{{ site.data.navbar.logo_image | relative_url }}" alt="{{ site.data.navbar.brand_name }} Logo">
+      </div>
+      <span class="logo-title">{{ site.data.navbar.brand_name }}</span>
+    </a>
+
+    <!-- Navigation Links -->
+    <div class="navbar-links">
+      {% for link in site.data.navbar.nav_links %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+
+    <!-- Call to Action -->
+    <div class="navbar-cta">
+      <a href="{{ site.data.navbar.cta_button.url }}" class="btn-primary">
+        {{ site.data.navbar.cta_button.title }}
+      </a>
+    </div>
+  </div>
+</nav>

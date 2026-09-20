@@ -20,43 +20,6 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
-
-    /*.footer-logo {
-      width: 2rem;
-      height: 2rem;
-      border-radius: 0.5rem;
-      background-color: $brand-primary;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $brand-text;
-      font-weight: 700;
-      font-size: 0.875rem;
-    }*/
-
-    .footer-logo {
-      width: 2.25rem;
-      height: 2.25rem;
-      border-radius: 0.5rem;
-      background-color: $brand-primary;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-
-      img {
-        width: 80%;
-        height: 80%;
-        object-fit: contain;
-        display: block;
-      }
-    }
-
-    .footer-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: $brand-text;
-    }
   }
 
   .footer-copy {
@@ -81,7 +44,7 @@
     }
   }
 
-  // Mobile Overrides (Desktop-first)
+  // Mobile Overrides (Desktop-first) nested properly inside .site-footer
   @media (max-width: 640px) {
     padding: 2.5rem 1.25rem;
 

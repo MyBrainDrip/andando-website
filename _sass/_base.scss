@@ -1,3 +1,5 @@
+@use "colors" as *;
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,9 +8,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; // Prevents accidental horizontal scrolling
+  background-color: $brand-bg; // Or whatever your background variable is named
+  color: $brand-softblack; // Your default text color
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #faf9f6;
-  color: #2d3748;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // Optional: Account for a fixed header/navbar if you have one
