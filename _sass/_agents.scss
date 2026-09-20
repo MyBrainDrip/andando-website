@@ -43,7 +43,6 @@
     flex: 1;
     min-width: 280px;
     background: $brand-text;
-    // border: 1px solid $brand-primary;
     border: 1px solid color-mix(in srgb, $brand-primary 50%, transparent);
     border-radius: 1.875rem;
     padding: 40px;
@@ -87,6 +86,16 @@
   .agents {
     padding: 72px 24px;
     max-width: 100%;
-    gap: 40px;
+    //gap: 40px;
+    gap: 3.5rem;
+
+    .agents-text,
+    .agent-card {
+      min-width: unset; // Removes the constraint on mobile so it fits the screen
+    }
+
+    .agent-card {
+      padding: 24px; // Shrinks internal padding
+    }
   }
 }
