@@ -1,0 +1,9 @@
+company: "Andando"
+logo_image: "/assets/images/feet.png" #
+year: 2026
+copyright_text: "Todos los derechos reservados."
+links:
+  - title: "Privacidad"
+    url: "#privacy"
+  - title: "Contacto"
+    url: "#support"

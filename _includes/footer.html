@@ -1,0 +1,20 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="{{ site.data.footer.logo_image | relative_url }}" alt="{{ site.data.footer.company }} Logo">
+      </div>
+      <span class="footer-title">{{ site.data.footer.company }}</span>
+    </div>
+
+    <p class="footer-copy">
+      &copy; {{ site.data.footer.year }} {{ site.data.footer.company }}. {{ site.data.footer.copyright_text }}
+    </p>
+
+    <div class="footer-links">
+      {% for link in site.data.footer.links %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
