@@ -1,13 +1,13 @@
 brand_name: "andando"
 logo_image: "/assets/images/feet.png"
 nav_links:
-  - title: "Características"
-    url: "#features"
+  - title: "Inmobiliarias"
+    url: "#agents"
   - title: "Descargar App"
     url: "#download"
   - title: "Aviso de Privacidad"
     url: "{{ '/privacy/' | relative_url }}"
-  - title: "Soporte"
+  - title: "Contacto"
     url: "{{ '/support/' | relative_url }}"
 cta_button:
   title: "Obtener la App"

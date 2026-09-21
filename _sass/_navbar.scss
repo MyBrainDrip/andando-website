@@ -2,20 +2,13 @@
 
 .site-navbar {
   position: sticky;
-  top: 0;
+  top: 0px;
+  left: 0;
+  width: 100%;
   z-index: 50;
-  /*background-color: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid #f3f4f6;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);*/
 
   // Frosted Glass Effect
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.15
-  ); // Semi-transparent white tint (adjust opacity as needed)
+  background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); // Subtle translucent border
@@ -25,7 +18,7 @@
     max-width: 80rem;
     margin: 0 auto;
     padding: 0 2rem;
-    height: 4rem;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +37,7 @@
     gap: 2rem;
     font-size: 0.875rem;
     font-weight: 600;
-    color: $brand-softblack;
+    color: $brand-accent;
 
     a {
       color: inherit;
@@ -52,7 +45,7 @@
       transition: color 0.2s ease;
 
       &:hover {
-        color: $brand-primary;
+        color: $brand-secondary;
       }
     }
   }
