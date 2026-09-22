@@ -233,7 +233,8 @@ La fecha de última actualización se indicará al inicio de este documento.
 Para preguntas, solicitudes o cualquier asunto relacionado con este Aviso de Privacidad y el tratamiento de datos personales, puedes comunicarte con:
 
 **Andando**  
-**Correo electrónico:** privacidad@andando.ai
+**Correo electrónico:** privacidad@andando.ai  
+**Sitio web:** [andando.ai](https://andando.ai)
 
 ---
 
