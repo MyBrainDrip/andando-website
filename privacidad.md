@@ -11,7 +11,9 @@ Andando ("Andando", "nosotros" o "la aplicación") respeta la privacidad de las 
 
 Este Aviso de Privacidad describe qué datos personales podemos recopilar a través de la aplicación móvil Andando y de los servicios relacionados con ella, para qué los utilizamos, con quién podemos compartirlos, cómo los protegemos y cuáles son los derechos que pueden ejercer las personas titulares de los datos.
 
-## 1. Responsable del tratamiento
+## 1. Responsable del tratamiento de datos personales
+
+**Andando** (en adelante "Andando", "nosotros" o "la empresa"), con domicilio en Guadalajara, Jalisco, México, y correo electrónico de contacto: **privacidad@andando.ai**, es responsable del uso y protección de sus datos personales, en términos de lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y su Reglamento.
 
 El responsable del tratamiento de los datos personales recabados a través de Andando es el responsable que opera la aplicación y el servicio Andando.
 
@@ -228,7 +230,11 @@ Cuando un cambio requiera una comunicación específica o consentimiento conform
 
 La fecha de última actualización se indicará al inicio de este documento.
 
-## 17. Contacto
+## 17. Autoridad Regulatoria
+
+Si consideras que tu derecho a la protección de datos personales ha sido vulnerado, puedes acudir al **Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)** en [www.inai.org.mx](https://www.inai.org.mx).
+
+## 18. Contacto
 
 Para preguntas, solicitudes o cualquier asunto relacionado con este Aviso de Privacidad y el tratamiento de datos personales, puedes comunicarte con:
 
