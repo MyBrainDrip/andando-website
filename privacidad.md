@@ -5,129 +5,236 @@ title: Aviso de Privacidad
 
 ## Andando — Plataforma Inmobiliaria
 
-**Fecha de última actualización:** Junio 2025
+**Última actualización: septiembre de 2026**
+
+Andando ("Andando", "nosotros" o "la aplicación") respeta la privacidad de las personas usuarias y se compromete a proteger sus datos personales de conformidad con la legislación mexicana aplicable en materia de protección de datos personales.
+
+Este Aviso de Privacidad describe qué datos personales podemos recopilar a través de la aplicación móvil Andando y de los servicios relacionados con ella, para qué los utilizamos, con quién podemos compartirlos, cómo los protegemos y cuáles son los derechos que pueden ejercer las personas titulares de los datos.
+
+## 1. Responsable del tratamiento
+
+El responsable del tratamiento de los datos personales recabados a través de Andando es el responsable que opera la aplicación y el servicio Andando.
+
+Para cualquier asunto relacionado con privacidad y protección de datos personales, puedes comunicarte con nosotros en:
+
+**Correo electrónico:** privacidad@andando.ai
+
+La aplicación y este aviso identifican a Andando como el servicio respecto del cual se realiza el tratamiento de datos personales.
+
+## 2. Datos personales que podemos recopilar
+
+Dependiendo de las funciones que utilices, Andando puede tratar las siguientes categorías de datos personales:
+
+### Datos de contacto
+
+Cuando voluntariamente nos proporcionas información para comunicarte con nosotros, podemos recopilar:
+
+- Nombre.
+- Correo electrónico.
+- Información que incluyas en el contenido de una solicitud o mensaje.
+
+### Datos de ubicación
+
+Cuando utilizas funciones de Andando que dependen de tu ubicación y otorgas el permiso correspondiente, la aplicación puede acceder a la ubicación de tu dispositivo.
+
+La ubicación se utiliza principalmente para mostrar y ordenar propiedades en función de la proximidad a la ubicación actual de la persona usuaria y para proporcionar las funciones basadas en mapas de la aplicación.
+
+Andando no necesita acceder a tu ubicación cuando la aplicación no está siendo utilizada para una función que requiere dicha información.
+
+Andando no utiliza la ubicación del dispositivo para fines publicitarios.
+
+### Datos técnicos y de uso
+
+La aplicación puede tratar información técnica necesaria para proporcionar, mantener y proteger el servicio, como información relacionada con el dispositivo, sistema operativo, versión de la aplicación, errores y eventos técnicos.
+
+Cuando se implementen funciones de medición o análisis de uso, esta información será tratada de acuerdo con la versión vigente de este Aviso de Privacidad y con los mecanismos de consentimiento que correspondan.
+
+## 3. Datos personales sensibles
+
+Andando no solicita deliberadamente datos personales sensibles para proporcionar sus funciones principales.
+
+No solicitamos información como datos de salud, origen racial o étnico, creencias religiosas, opiniones políticas, orientación sexual, información genética o biométrica para utilizar las funciones principales de la aplicación.
+
+Te pedimos que no incluyas este tipo de información en formularios, mensajes u otros contenidos enviados voluntariamente a Andando cuando no sea necesaria para la finalidad correspondiente.
+
+## 4. Información sobre propiedades
+
+Andando muestra información sobre propiedades inmobiliarias obtenida de fuentes y sitios de anuncios inmobiliarios.
+
+La información sobre las propiedades puede incluir, entre otros datos:
+
+- Tipo de inmueble.
+- Precio.
+- Características del inmueble.
+- Ubicación o zona.
+- Imágenes y otros contenidos asociados al anuncio.
+- Información de contacto o del anunciante cuando dicha información forma parte del anuncio.
+
+Esta información se utiliza para proporcionar la función principal de búsqueda y descubrimiento de propiedades.
+
+La información relativa a una propiedad que aparece en Andando no constituye por sí misma un dato personal de la persona usuaria de Andando.
+
+## 5. Finalidades del tratamiento
+
+Los datos personales pueden ser tratados para las siguientes finalidades:
+
+### Finalidades primarias
+
+Son aquellas necesarias para proporcionar las funciones y servicios de Andando:
+
+- Mostrar propiedades cercanas a la ubicación de la persona usuaria.
+- Proporcionar funciones de mapas y localización.
+- Responder solicitudes y mensajes enviados a Andando.
+- Proporcionar soporte.
+- Mantener, operar y mejorar técnicamente la aplicación.
+- Detectar, prevenir y resolver errores, abusos, fraude o incidentes de seguridad.
+- Cumplir obligaciones legales aplicables.
+
+### Finalidades secundarias
+
+Andando podrá utilizar información de uso y funcionamiento del servicio, cuando corresponda, para comprender cómo se utilizan sus funciones y mejorar la experiencia de la aplicación.
+
+Cuando una finalidad secundaria requiera consentimiento, Andando proporcionará los mecanismos correspondientes para que puedas manifestar tu negativa antes de que tenga lugar dicho tratamiento.
+
+La negativa a una finalidad secundaria no impedirá el uso de las funciones principales de Andando que no dependan de dicha finalidad.
+
+## 6. Ubicación y permisos del dispositivo
+
+El acceso a la ubicación del dispositivo depende de los permisos que otorgues mediante el sistema operativo de tu dispositivo.
+
+Puedes retirar o modificar estos permisos desde la configuración de tu dispositivo.
+
+Si deshabilitas el acceso a la ubicación, algunas funciones de Andando que dependen de ella pueden dejar de estar disponibles o funcionar de manera limitada.
+
+Andando solicita únicamente los permisos necesarios para proporcionar las funciones correspondientes.
+
+## 7. Compartición y transferencias de datos
+
+Andando puede compartir o permitir el tratamiento de datos personales con terceros únicamente cuando sea necesario para proporcionar, mantener, proteger u operar el servicio, cuando exista una obligación legal, o cuando la persona titular haya otorgado el consentimiento requerido.
+
+Estos terceros pueden incluir categorías como:
+
+- Proveedores de infraestructura tecnológica.
+- Proveedores de servicios de mapas y localización.
+- Proveedores de almacenamiento y procesamiento de información.
+- Proveedores de comunicación y soporte.
+- Proveedores de servicios de seguridad, prevención de fraude y mantenimiento.
+- Otros proveedores tecnológicos que actúen por cuenta de Andando.
+
+Estos proveedores tratarán los datos únicamente de acuerdo con las instrucciones y finalidades correspondientes y deberán aplicar medidas de protección adecuadas.
+
+Andando no vende datos personales de las personas usuarias.
+
+Cuando una transferencia requiera consentimiento de acuerdo con la legislación aplicable, se solicitará dicho consentimiento y se proporcionarán los mecanismos necesarios para que puedas manifestar tu negativa.
+
+## 8. Tratamiento fuera de México
+
+Algunos proveedores tecnológicos que participan en la operación de Andando pueden procesar información desde otros países.
+
+Cuando se realicen transferencias o remisiones internacionales de datos personales, Andando adoptará las medidas y condiciones requeridas por la legislación mexicana aplicable para proteger dichos datos.
+
+## 9. Seguridad
+
+Andando implementa medidas administrativas, técnicas y físicas razonables y proporcionales para proteger los datos personales contra daño, pérdida, alteración, destrucción, acceso o tratamiento no autorizado.
+
+Las comunicaciones entre la aplicación y los servicios de Andando utilizan mecanismos de cifrado adecuados para proteger los datos durante su transmisión.
+
+Ningún sistema de almacenamiento o transmisión de información puede garantizar una seguridad absoluta. En caso de que ocurra una vulneración de seguridad que pueda afectar de manera significativa los derechos patrimoniales o morales de las personas titulares, se realizarán las notificaciones que correspondan conforme a la legislación aplicable.
+
+## 10. Conservación y eliminación de datos
+
+Andando conservará los datos personales únicamente durante el tiempo necesario para cumplir las finalidades para las cuales fueron recabados, proporcionar los servicios correspondientes, cumplir obligaciones legales o resolver posibles responsabilidades.
+
+Cuando los datos personales dejen de ser necesarios, serán eliminados o, cuando corresponda, bloqueados y posteriormente eliminados conforme a los procedimientos aplicables.
+
+Los periodos concretos de conservación pueden variar dependiendo del tipo de información y de la finalidad para la cual fue recopilada.
+
+Cuando una persona solicite la eliminación de sus datos y no exista una obligación legal que requiera conservarlos, Andando eliminará o anonimizará los datos correspondientes dentro de un plazo razonable.
+
+## 11. Eliminación de cuenta y datos
+
+Si Andando ofrece la posibilidad de crear una cuenta, la persona usuaria podrá solicitar su eliminación y la eliminación de los datos personales asociados con ella.
+
+La solicitud podrá realizarse mediante los mecanismos de eliminación disponibles dentro de la aplicación y, cuando corresponda, mediante el mecanismo disponible en el sitio web de Andando.
+
+Al recibir una solicitud válida de eliminación, Andando eliminará los datos asociados con la cuenta, salvo aquellos que deban conservarse por una obligación legal, para la prevención del fraude o por otra causa legítima reconocida por la legislación aplicable.
+
+Cuando determinados datos deban conservarse temporalmente por una de estas razones, serán conservados únicamente durante el periodo necesario y sujetos a las medidas de protección correspondientes.
+
+## 12. Derechos ARCO
+
+Como titular de tus datos personales, puedes ejercer los derechos de:
+
+- **Acceso:** conocer qué datos personales tenemos sobre ti y cómo los tratamos.
+- **Rectificación:** solicitar la corrección de datos personales inexactos o incompletos.
+- **Cancelación:** solicitar la eliminación de tus datos personales cuando resulte procedente.
+- **Oposición:** oponerte al tratamiento de tus datos personales en los casos previstos por la legislación aplicable.
+
+También puedes solicitar la revocación de tu consentimiento cuando el tratamiento se base en dicho consentimiento.
+
+Para ejercer cualquiera de estos derechos, envía una solicitud a:
+
+**privacidad@andando.ai**
+
+La solicitud deberá indicar, como mínimo:
+
+1. Nombre de la persona titular.
+2. Medio para recibir la respuesta.
+3. Descripción clara del derecho que deseas ejercer.
+4. Una descripción de los datos personales relacionados con tu solicitud.
+5. Cualquier información que facilite la localización de los datos correspondientes.
+
+Podremos solicitar información razonable para verificar la identidad de la persona que realiza la solicitud y evitar que los datos personales sean entregados a una persona no autorizada.
+
+Las solicitudes serán atendidas dentro de los plazos establecidos por la legislación mexicana aplicable.
+
+## 13. Revocación del consentimiento
+
+Cuando el tratamiento de tus datos personales se base en tu consentimiento, puedes revocarlo en cualquier momento mediante una solicitud a:
+
+**privacidad@andando.ai**
+
+La revocación del consentimiento no afectará la legalidad del tratamiento realizado antes de la revocación.
+
+En algunos casos, retirar el consentimiento puede impedir que Andando proporcione determinadas funciones que dependan necesariamente del tratamiento correspondiente, como aquellas que requieren acceso a la ubicación del dispositivo.
+
+## 14. Limitación del uso o divulgación
+
+Puedes solicitar la limitación del uso o divulgación de tus datos personales mediante una solicitud a:
+
+**privacidad@andando.ai**
+
+Andando atenderá dichas solicitudes de conformidad con la legislación aplicable.
+
+## 15. Menores de edad
+
+Andando no está dirigido específicamente a niñas, niños o adolescentes y no solicita deliberadamente datos personales de menores para crear perfiles con fines comerciales.
+
+Si consideras que una persona menor de edad ha proporcionado datos personales a Andando sin la autorización que corresponda, puedes comunicarte con nosotros en:
+
+**privacidad@andando.ai**
+
+Si tenemos conocimiento de que hemos recopilado datos personales de una persona menor de edad de manera incompatible con la legislación aplicable, adoptaremos las medidas correspondientes.
+
+## 16. Cambios a este Aviso de Privacidad
+
+Andando podrá modificar este Aviso de Privacidad cuando sea necesario para reflejar cambios en el servicio, en las tecnologías utilizadas, en las finalidades del tratamiento o en la legislación aplicable.
+
+La versión vigente estará disponible en:
+
+**[https://andando.ai/privacidad](https://andando.ai/privacidad)**
+
+Cuando un cambio requiera una comunicación específica o consentimiento conforme a la legislación aplicable, Andando utilizará los mecanismos correspondientes.
+
+La fecha de última actualización se indicará al inicio de este documento.
+
+## 17. Contacto
+
+Para preguntas, solicitudes o cualquier asunto relacionado con este Aviso de Privacidad y el tratamiento de datos personales, puedes comunicarte con:
+
+**Andando**  
+**Correo electrónico:** privacidad@andando.ai
 
 ---
 
-### 1. Responsable del Tratamiento de Datos Personales
-
-**Andando** (en adelante "Andando", "nosotros" o "la empresa"), con domicilio en Guadalajara, Jalisco, México, y correo electrónico de contacto: **privacidad@andando.ai**, es responsable del uso y protección de sus datos personales, en términos de lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y su Reglamento.
-
----
-
-### 2. Datos Personales que Recabamos
-
-Para cumplir con las finalidades descritas en este aviso, recabamos las siguientes categorías de datos personales:
-
-**Datos de identificación y contacto:**
-
-- Nombre completo
-- Correo electrónico
-- Número de teléfono / WhatsApp
-
-**Datos de ubicación:**
-
-- Ubicación geográfica en tiempo real (solo mientras usa la aplicación y con su consentimiento expreso)
-
-**Datos de uso de la aplicación:**
-
-- Propiedades consultadas
-- Filtros aplicados en búsquedas
-- Interacciones con el mapa
-
-**Datos proporcionados voluntariamente:**
-
-- Información sobre su situación como arrendatario o comprador (timeline de mudanza, disponibilidad de aval)
-
-No recabamos datos personales sensibles en los términos del Artículo 3, fracción VI de la LFPDPPP.
-
----
-
-### 3. Finalidades del Tratamiento
-
-**Finalidades primarias (necesarias para el servicio):**
-
-- Conectarlo con agentes inmobiliarios de propiedades de su interés
-- Mostrar propiedades disponibles en su área geográfica
-- Gestionar su solicitud de contacto con agentes
-- Personalizar su experiencia de búsqueda
-
-**Finalidades secundarias (puede oponerse):**
-
-- Envío de notificaciones sobre nuevas propiedades en zonas de su interés
-- Análisis estadístico agregado para mejorar el servicio
-- Comunicaciones sobre nuevas funcionalidades de Andando
-
-Si no desea que sus datos sean tratados para las finalidades secundarias, puede manifestarlo enviando un correo a **privacidad@andando.ai** con el asunto "Oposición a finalidades secundarias".
-
----
-
-### 4. Transferencia de Datos Personales
-
-Sus datos personales podrán ser compartidos con:
-
-| Tercero                           | Finalidad                                                    | Consentimiento requerido      |
-| --------------------------------- | ------------------------------------------------------------ | ----------------------------- |
-| Agentes inmobiliarios             | Facilitar el contacto para visita o información de propiedad | Sí — usted inicia el contacto |
-| Proveedores de servicios de mapas | Renderizado de mapas y geolocalización                       | No — operación del servicio   |
-| Proveedores de comunicaciones     | Envío de notificaciones y formularios de contacto            | No — operación del servicio   |
-| Proveedores de análisis de uso    | Mejora del servicio mediante estadísticas anónimas           | No — operación del servicio   |
-
-No vendemos, rentamos ni comercializamos sus datos personales a terceros.
-
----
-
-### 5. Derechos ARCO
-
-Usted tiene derecho a **Acceder, Rectificar, Cancelar u Oponerse** al tratamiento de sus datos personales (Derechos ARCO). Para ejercerlos:
-
-1. Envíe un correo a **privacidad@andando.ai** con el asunto "Solicitud ARCO"
-2. Incluya: nombre completo, descripción del derecho que desea ejercer y copia de identificación oficial
-3. Responderemos en un plazo máximo de **20 días hábiles**
-
----
-
-### 6. Mecanismos para Revocar el Consentimiento
-
-Puede revocar su consentimiento para el tratamiento de sus datos personales en cualquier momento, enviando su solicitud a **privacidad@andando.ai**. La revocación no tendrá efectos retroactivos.
-
-Para revocar el acceso a su ubicación, puede hacerlo directamente desde la configuración de su dispositivo móvil (iOS: Ajustes → Andando → Ubicación / Android: Ajustes → Aplicaciones → Andando → Permisos).
-
----
-
-### 7. Uso de Tecnologías de Rastreo
-
-La aplicación utiliza herramientas de análisis de uso anónimo para mejorar la experiencia del usuario. Estos datos no permiten identificar al usuario de forma individual.
-
----
-
-### 8. Seguridad de los Datos
-
-Andando implementa medidas de seguridad administrativas, técnicas y físicas para proteger sus datos personales contra daño, pérdida, alteración, destrucción o uso no autorizado.
-
----
-
-### 9. Menores de Edad
-
-Andando no está dirigida a menores de 13 años. No recabamos intencionalmente datos personales de menores. Si usted es padre o tutor y tiene conocimiento de que un menor nos ha proporcionado datos personales, contáctenos a **privacidad@andando.ai**.
-
----
-
-### 10. Cambios al Aviso de Privacidad
-
-Nos reservamos el derecho de modificar este Aviso de Privacidad en cualquier momento. Cualquier cambio será notificado a través de la aplicación o por correo electrónico. El uso continuo de la aplicación después de dichos cambios constituye su aceptación.
-
----
-
-### 11. Autoridad Regulatoria
-
-Si considera que su derecho a la protección de datos personales ha sido vulnerado, puede acudir al **Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)** en [www.inai.org.mx](https://www.inai.org.mx).
-
----
-
-### 12. Contacto
-
-Para cualquier duda relacionada con este Aviso de Privacidad:
-
-**Correo:** privacidad@andando.ai  
-**Sitio web:** [andando.ai](https://andando.ai)
+**Fecha de última actualización:** septiembre de 2026
