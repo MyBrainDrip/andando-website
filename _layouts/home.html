@@ -6,13 +6,8 @@
   {% include navbar.html %}
 
   <main>
-    {% if page.title and page.hero != false %}
-    {% include hero-pages.html %}
-    {% endif %}
-
-    <div class="page-container">
-      {{ content }}
-    </div>
+    {% include hero.html %}
+    {{ content }}
   </main>
 
   {% include footer.html %}

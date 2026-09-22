@@ -2,30 +2,66 @@
 
 .hero-section {
   position: relative;
-  margin-top: -70px; //same height as navbar, pull hero up behind it
+  margin-top: -70px; // same height as navbar, pull hero up behind it
   background-color: $brand-primary; // Fallback teal background
   color: $brand-text;
-  padding-bottom: 1rem;
   overflow: hidden;
 
-  // Scale width to 100% of the container, height scales automatically
+  // Base background positioning
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center top; // Pins the top of the image so you see the head/upper body
   background-position: center 30%;
 
-  @media (min-width: 1024px) {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    background-size: cover;
-    background-position: center 75%;
+  // ==========================================
+  // 1. IMAGE HERO MODIFIER (Homepage)
+  // ==========================================
+  &.hero-section--image {
+    background-image:
+      linear-gradient(rgba(15, 118, 110, 0.2), rgba(5, 3, 21, 0.8)),
+      var(--hero-bg);
+
+    // Massive padding only applies when there is an image
+    @media (min-width: 1024px) {
+      padding-top: 9rem;
+      padding-bottom: 9rem;
+      background-size: cover;
+      background-position: center 75%;
+    }
   }
 
-  // Combine gradient overlay and dynamic background variable
-  background-image:
-    linear-gradient(rgba(15, 118, 110, 0.2), rgba(5, 3, 21, 0.8)),
-    var(--hero-bg);
+  // ==========================================
+  // 2. COMPACT HERO MODIFIER (Text-only pages)
+  // ==========================================
+  &.hero-compact {
+    // Just enough padding to clear the 70px navbar plus a little breathing room
+    padding-top: 100px;
+    padding-bottom: 1.5rem;
 
+    @media (min-width: 1024px) {
+      padding-top: 120px;
+      padding-bottom: 3rem;
+    }
+
+    // Strip out the bulky container padding for inner pages
+    .hero-container {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    // Strip out bottom margins so the container hugs the text
+    .hero-title {
+      margin-bottom: 0;
+    }
+
+    .hero-subtitle {
+      margin-bottom: 0;
+      margin-top: 0.5rem;
+    }
+  }
+
+  // ==========================================
+  // 3. LAYOUT & CONTENT (Shared)
+  // ==========================================
   .hero-container {
     position: relative;
     z-index: 10;
@@ -53,9 +89,9 @@
       color: $brand-black;
       font-weight: 700; // font-bold
       font-size: 0.75rem; // text-xs
-      text-transform: uppercase; // uppercase
-      letter-spacing: 0.05em; // tracking-wider
-      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); // shadow-sm
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     }
 
     .hero-title {

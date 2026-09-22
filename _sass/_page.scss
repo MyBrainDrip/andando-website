@@ -1,0 +1,134 @@
+@use "colors" as *;
+
+/* =================================================================at
+   Inner Page Styles (`_page.scss`)
+   ================================================================ */
+
+.page-container {
+  /*width: 70%;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  color: $brand-softblack;*/
+
+  // 1. Mobile-first width and padding
+  width: 88%;
+  margin: 0 auto;
+  padding: 1rem 1.5rem; // Reduced to 1.5rem on all sides for mobile
+  color: $brand-softblack;
+
+  // 2. Desktop overrides
+  @media (min-width: 1024px) {
+    width: 70%; // Brings back your 70% width on large screens
+    padding: 2.5rem 1.5rem; // Restores the taller 2.5rem top/bottom padding on desktop
+  }
+
+  // Typography scaling for markdown content
+  h2 {
+    //font-size: 2rem;
+    font-size: 1.6 rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: $brand-softblack;
+  }
+
+  h3 {
+    //font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: $brand-black;
+  }
+
+  p {
+    //font-size: 1.125rem;
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+    color: rgba($brand-softblack, 0.85);
+  }
+
+  ul,
+  ol {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+
+    li {
+      //font-size: 1.125rem;
+      font-size: 1rem;
+      line-height: 1.7;
+      margin-bottom: 0.5rem;
+      color: rgba($brand-softblack, 0.85);
+    }
+  }
+
+  strong {
+    color: $brand-black;
+    font-weight: 600;
+  }
+
+  a {
+    color: $brand-primary;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  // Horizontal rule / section dividers
+  hr {
+    border: none;
+    border-top: 1px solid
+      color-mix(in srgb, var(--color-brand-softblack) 15%, transparent);
+    margin: 2.5rem 0;
+  }
+
+  // Tables
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    border: 1px solid
+      color-mix(in srgb, var(--color-brand-softblack) 15%, transparent);
+
+    // Forces scrollable block ONLY on screens smaller than 768px (mobile)
+    @media (max-width: 768px) {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    th,
+    td {
+      padding: 0.75rem 1.25rem;
+      text-align: left;
+      border: 1px solid
+        color-mix(in srgb, var(--color-brand-softblack) 12%, transparent);
+      vertical-align: top;
+      line-height: 1.6;
+    }
+
+    th {
+      font-weight: 700;
+      color: $brand-black;
+      background: color-mix(
+        in srgb,
+        var(--color-brand-primary) 6%,
+        transparent
+      );
+      white-space: nowrap;
+    }
+
+    td {
+      color: color-mix(in srgb, var(--color-brand-softblack) 85%, transparent);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+  }
+}

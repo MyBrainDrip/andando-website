@@ -1,4 +1,4 @@
-image: "assets/images/hero.png"
+image: "/assets/images/hero.png"
 tagline: "Plataforma Inmobiliaria Inteligente"
 title: "Encuentra tu nueva casa caminando por el mapa."
 subtitle: >

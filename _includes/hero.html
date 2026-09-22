@@ -1,36 +1,26 @@
 {% assign hero = site.data.hero %}
 
-<section class="hero-section" {% if hero.image %} style="--hero-bg: url('{{ hero.image | relative_url }}');" {% endif
-  %}>
+<section class="hero-section{% if hero.image %} hero-section--image{% endif %}" {% if hero.image %}
+  style="--hero-bg: url('{{ hero.image | relative_url }}');" {% endif %}>
   <div class="hero-container">
     <div class="hero-content">
       {% if hero.tagline %}
-      <span class="hero-tagline">
-        {{ hero.tagline }}
-      </span>
+      <span class="hero-tagline"> {{ hero.tagline }}</span>
       {% endif %}
 
-      <h1 class="hero-title">
-        {{ hero.title }}
-      </h1>
+      <h1 class="hero-title">{{ hero.title }}</h1>
 
       {% if hero.subtitle %}
-      <p class="hero-subtitle">
-        {{ hero.subtitle }}
-      </p>
+      <p class="hero-subtitle">{{ hero.subtitle }}</p>
       {% endif %}
 
       {% if hero.buttons %}
       <div class="cta-buttons">
         {% for btn in hero.buttons %}
         {% if btn.style == 'primary' %}
-        <a href="{{ btn.url }}" class="cta-btn-accent">
-          {{ btn.text }}
-        </a>
+        <a href="{{ btn.url }}" class="cta-btn-accent">{{ btn.text }}</a>
         {% else %}
-        <a href="{{ btn.url }}" class="cta-btn-glass">
-          {{ btn.text }}
-        </a>
+        <a href="{{ btn.url }}" class="cta-btn-glass">{{ btn.text }}</a>
         {% endif %}
         {% endfor %}
       </div>

@@ -5,6 +5,6 @@ year: 2026
 copyright_text: "Todos los derechos reservados."
 links:
   - title: "Privacidad"
-    url: "#privacy"
+    url: "/privacidad"
   - title: "Contacto"
     url: "#support"
