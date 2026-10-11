@@ -1,1 +1,3 @@
-This is the first readme
+To run locally:
+
+> bundle exec jekyll serve

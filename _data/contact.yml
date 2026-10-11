@@ -1,0 +1,9 @@
+subtitle: "Centro de Ayuda"
+title: "¡Ponte en contacto con nosotros!"
+description: "¿Tienes dudas sobre la aplicación o te interesa publicar tu propiedad con nosotros? Escríbenos."
+success_message: "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto."
+form:
+  name_label: "Tu nombre completo"
+  email_label: "Tu correo electrónico"
+  message_label: "Mensaje o duda"
+  submit_button: "Enviar Mensaje"
