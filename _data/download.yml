@@ -7,5 +7,5 @@ buttons:
     icon: "fa-solid fa-download"
   - text: "App Store (TestFlight iOS)"
     url: "https://testflight.apple.com/join/3G9Grpcr"
-    style: "disabled"
+    style: "glass"
     icon: "fa-brands fa-apple"
