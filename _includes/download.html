@@ -14,7 +14,7 @@
     <div class="cta-buttons download-actions">
       {% for btn in download.buttons %}
       {% if btn.style == 'disabled' %}
-      <div class="cta-btn-glass disabled-badge">
+      <div class="cta-btn-glass">
         {% if btn.icon %}<i class="{{ btn.icon }}"></i>{% endif %}
         <span>{{ btn.text }}</span>
       </div>
