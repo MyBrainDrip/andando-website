@@ -1,7 +1,7 @@
 title: "Lleva a Andando contigo en cada paso"
 subtitle: "Descarga la versión de prueba para Android ahora mismo o búscanos muy pronto en las tiendas oficiales."
 buttons:
-  - text: "Descargar APK Preview"
+  - text: "Descargar APK Preview (Android)"
     url: "#"
     style: "primary"
     icon: "fa-solid fa-download"
